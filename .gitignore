@@ -1,0 +1,32 @@
+.venv/
+__pycache__/
+*.session
+.env
+logs/
+data/raw/
+# Python
+.venv/
+__pycache__/
+*.pyc
+
+# dbt
+target/
+dbt_packages/
+logs/
+
+# Telegram session
+*.session
+*.session-journal
+
+# Environment variables
+.env
+
+# Large data files
+data/raw/images/
+data/raw/telegram_messages/
+
+# Jupyter
+.ipynb_checkpoints/
+
+# YOLO weights
+*.pt
