@@ -1,9 +1,17 @@
+<<<<<<< HEAD
 .venv/
 __pycache__/
 *.session
 .env
 logs/
 data/raw/
+=======
+
+target/
+dbt_packages/
+logs/
+.env
+>>>>>>> a76504785dfc7e6368c01d796c6501eb15ac3087
 # Python
 .venv/
 __pycache__/
