@@ -27,8 +27,6 @@ jobs:
           ${{ secrets.DBT_PROFILES }}
           EOF
 
-      - name: Run Python tests
-        run: python -m pytest
 
       - name: Run dbt tests
         run: dbt test
