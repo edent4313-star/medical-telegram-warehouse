@@ -1,1 +1,1 @@
-SELECT * FROM {{ ref('fct_messages') }} WHERE view_count < 0
+SELECT * FROM {{ ref('fct_messages') }} WHERE views < 0
