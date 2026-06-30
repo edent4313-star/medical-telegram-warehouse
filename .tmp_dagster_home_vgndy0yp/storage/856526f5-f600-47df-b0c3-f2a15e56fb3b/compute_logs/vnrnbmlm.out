@@ -1,0 +1,35 @@
+18:41:39  Running with dbt=1.12.0-b3
+18:41:39  Registered adapter: postgres=1.10.2
+18:41:40  [WARNING][DuplicateYAMLKeysDeprecation]: Deprecated functionality
+Duplicate key 'tests' in "<unicode string>", line 33, column 9 in file
+`models\marts\schema.yml`
+18:41:40  [WARNING]: Configuration paths exist in your dbt_project.yml file which do not apply to any resources.
+There are 1 unused configuration paths:
+- models.medical_warehouse.example
+18:41:40  Found 5 models, 8 data tests, 1 source, 475 macros
+18:41:40  
+18:41:40  Concurrency: 5 threads (target='dev')
+18:41:40  
+18:41:41  1 of 5 START sql view model analytics.stg_telegram_messages .................... [RUN]
+18:41:41  1 of 5 OK created sql view model analytics.stg_telegram_messages ............... [CREATE VIEW in 0.34s]
+18:41:41  2 of 5 START sql view model analytics.dim_channels ............................. [RUN]
+18:41:41  3 of 5 START sql view model analytics.dim_dates ................................ [RUN]
+18:41:41  2 of 5 OK created sql view model analytics.dim_channels ........................ [CREATE VIEW in 0.22s]
+18:41:41  4 of 5 START sql view model analytics.fct_messages ............................. [RUN]
+18:41:41  3 of 5 OK created sql view model analytics.dim_dates ........................... [CREATE VIEW in 0.25s]
+18:41:41  4 of 5 OK created sql view model analytics.fct_messages ........................ [CREATE VIEW in 0.14s]
+18:41:41  5 of 5 START sql view model analytics.fct_image_detections ..................... [RUN]
+18:41:41  5 of 5 OK created sql view model analytics.fct_image_detections ................ [CREATE VIEW in 0.14s]
+18:41:42  
+18:41:42  Finished running 5 view models in 0 hours 0 minutes and 1.24 seconds (1.24s).
+18:41:42  
+18:41:42  Completed successfully
+18:41:42  
+18:41:42  Done. PASS=5 WARN=0 ERROR=0 SKIP=0 NO-OP=0 REUSED=0 TOTAL=5
+18:41:42  [WARNING][DeprecationsSummary]: Deprecated functionality
+Summary of encountered deprecations:
+- DuplicateYAMLKeysDeprecation: 1 occurrence
+To see all deprecation instances instead of just the first occurrence of each,
+run command again with the `--show-all-deprecations` flag. You may also need to
+run with `--no-partial-parse` as some deprecations are only encountered during
+parsing.

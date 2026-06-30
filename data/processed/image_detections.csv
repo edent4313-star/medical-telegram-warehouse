@@ -56,7 +56,6 @@ message_id,channel_name,image_path,detected_objects,confidence_score,image_categ
 85,CheMed123,data\raw\images\CheMed123\85.jpg,,0.0,other
 86,CheMed123,data\raw\images\CheMed123\86.jpg,"person,refrigerator",0.9013,lifestyle
 87,CheMed123,data\raw\images\CheMed123\87.jpg,parking meter,0.2786,other
-88,CheMed123,data\raw\images\CheMed123\88.jpg,,0.0,other
 9,CheMed123,data\raw\images\CheMed123\9.jpg,bottle,0.3872,product_display
 90,CheMed123,data\raw\images\CheMed123\90.jpg,book,0.3078,other
 91,CheMed123,data\raw\images\CheMed123\91.jpg,,0.0,other
@@ -1917,7 +1916,6 @@ message_id,channel_name,image_path,detected_objects,confidence_score,image_categ
 26614,lobelia4cosmetics,data\raw\images\lobelia4cosmetics\26614.jpg,"cup,bottle",0.4486,product_display
 26615,lobelia4cosmetics,data\raw\images\lobelia4cosmetics\26615.jpg,"bottle,bottle,bottle,bottle,orange",0.3435,product_display
 26616,lobelia4cosmetics,data\raw\images\lobelia4cosmetics\26616.jpg,"bottle,bottle",0.3353,product_display
-26617,lobelia4cosmetics,data\raw\images\lobelia4cosmetics\26617.jpg,"refrigerator,bottle,bottle,dining table,bottle,bottle,bottle,bottle",0.5083,product_display
 26618,lobelia4cosmetics,data\raw\images\lobelia4cosmetics\26618.jpg,"bottle,bottle,bottle,bottle",0.4823,product_display
 26619,lobelia4cosmetics,data\raw\images\lobelia4cosmetics\26619.jpg,"bottle,bottle,bottle,bottle,bottle",0.5669,product_display
 26620,lobelia4cosmetics,data\raw\images\lobelia4cosmetics\26620.jpg,bottle,0.4369,product_display
